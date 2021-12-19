@@ -10,7 +10,7 @@ function Login({ providers }) {
           <button
             className="bg-[#18d860] text-white p-5 rounded-full"
             onClick={() =>
-              signIn(provider.id, { callbackUrl: process.env.NEXTAUTH_URL })
+              signIn(provider.id, { callbackUrl: process.env.NEXTAUTH_LIVE })
             }
           >
             Login with {provider.name}
