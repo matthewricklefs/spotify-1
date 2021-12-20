@@ -32,3 +32,4 @@ export async function getServerSideProps() {
 }
 
 // TODO: Return and begin creating log out functionality
+// http://localhost:3000/api/auth/callback/spotify
