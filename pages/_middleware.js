@@ -7,7 +7,7 @@ export async function middleware(req) {
 
   const { pathname } = req.nextUrl;
 
-  // allow the request if the following is true:
+  // Allow the request if the following is true:
   // 1. its a request for next-auth session & provider fetching
   // 2. the token exists
   if (pathname.includes("/api/auth") || token) {
