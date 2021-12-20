@@ -8,7 +8,6 @@ const spotifyApi = new SpotifyWebApi({
 });
 
 // TODO: Debug the access token....
-
 function useSpotify() {
   const { data: session, status } = useSession();
 
