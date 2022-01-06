@@ -46,8 +46,8 @@ export default NextAuth({
         return {
           ...token,
           accessToken: account.access_token,
-          refreshToken: account.refresh_token,
           accessTokenExpires: account.expires_at * 1000,
+          refreshToken: account.refresh_token,
           username: account.providerAccountId,
         };
       }
